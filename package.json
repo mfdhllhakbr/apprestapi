@@ -1,0 +1,24 @@
+{
+  "name": "apprestapi",
+  "version": "1.0.0",
+  "description": "Aplikasi Rest API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mfdhllhakbr/apprestapi.git"
+  },
+  "keywords": [
+    "Rest",
+    "API",
+    "NodeJS"
+  ],
+  "author": "mfdhllhakbr",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mfdhllhakbr/apprestapi/issues"
+  },
+  "homepage": "https://github.com/mfdhllhakbr/apprestapi#readme"
+}
