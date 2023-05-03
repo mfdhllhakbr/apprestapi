@@ -2,8 +2,19 @@
 
 var response = require('./res');
 var connection = require('./koneksi');
+const conn = require('./koneksi');
 
-//menambahkan res
 exports.index = function(req, res){
     response.ok("Aplikasi RestAPI ku berjalan!", res)
+};
+
+//menampilkan semua data mahasiswa
+exports.tampilsemuamahasiswa = function(req, res){
+    connection.query('SELECT * FROM mahasiswa', function(error, rows, fileds){
+        if(error){
+            connection.log(error);
+        } else {
+            response.ok(rows, res)
+        }
+    });
 };

@@ -10,7 +10,6 @@ app.use(bodyParser.json());
 var routes = require('./routes');
 routes(app);
 
-//listen app
 app.listen(3000, () => {
     console.log(`Server started on port`);
 });
