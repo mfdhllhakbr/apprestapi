@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mfdhllhakbr/apprestapi.git"
+    "url": "git+https://github.com/mfdhllhakbr/restapivehicle.git"
   },
   "keywords": [
     "Rest",
@@ -18,9 +18,9 @@
   "author": "mfdhllhakbr",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/mfdhllhakbr/apprestapi/issues"
+    "url": "https://github.com/mfdhllhakbr/restapivehicle/issues"
   },
-  "homepage": "https://github.com/mfdhllhakbr/apprestapi#readme",
+  "homepage": "https://github.com/mfdhllhakbr/restapivehicle#readme",
   "dependencies": {
     "body-parser": "^1.20.2",
     "express": "^4.18.2",
